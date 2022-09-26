@@ -1,10 +1,28 @@
-/* 
-selector {
-    property: value;
-}
-*/
+@import url('https://fonts.googleleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pros&display=swap');
 
-html {
-    background-color: red;
-    font-size: 1500%;
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    /* background-color: white; */
+    background-color: cornflowerblue;
+    color: #000a16;
+    font-family: Lora, serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+h1, h2, h3{
+    font-family: Poppins, sans-serif;
 }

@@ -1,0 +1,10 @@
+/* 
+selector {
+    property: value;
+}
+*/
+
+html {
+    background-color: red;
+    font-size: 1500%;
+}
