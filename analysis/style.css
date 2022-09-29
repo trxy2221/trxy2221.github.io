@@ -45,6 +45,7 @@ h3{
 
 nav{
     position: fixed;
+    z-index: 999;
     top: 10px;
     left: 10px;
     text-align: center;
