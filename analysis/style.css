@@ -30,6 +30,7 @@ h1, h2, h3{
 h1{
     font-size: 4.8vh;
     line-height: 7.2vh;
+    margin: 1vh 0;
 }
 
 h2{
@@ -40,4 +41,10 @@ h2{
 h3{
     font-size: 3vh;
     line-height: 4.5vh;
+}
+
+nav{
+    position: fixed;
+    top: 10px;
+    left: 10px;
 }
