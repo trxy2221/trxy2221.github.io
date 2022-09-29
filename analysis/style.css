@@ -19,10 +19,25 @@ body{
     background-color: cornflowerblue;
     color: #000a16;
     font-family: Lora, serif;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 2.4vh;
+    line-height: 3.6vh;
 }
 
 h1, h2, h3{
     font-family: Poppins, sans-serif;
+}
+
+h1{
+    font-size: 4.8vh;
+    line-height: 7.2vh;
+}
+
+h2{
+    font-size: 3.6vh;
+    line-height: 4.8vh;
+}
+
+h3{
+    font-size: 3vh;
+    line-height: 4.5vh;
 }
