@@ -15,7 +15,7 @@ body{
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
-    background-color:white;
+    /* background-color:white; */
     color: #000a16;
     font-family: Lora, serif;
     font-size: 2.4vh;
@@ -51,4 +51,9 @@ nav{
     font-family: Poppins, sans-serif;
     font-size: 2vh;
     line-height: 3vh;
+}
+
+article{
+    margin: 1.5vh 0;
+    padding: 1vh 5vw;
 }
