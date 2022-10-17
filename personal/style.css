@@ -89,7 +89,7 @@ a, a:visited{
     text-decoration: underline;
 }
 
-img{
+img.ani{
     width: 20vw;
     height: 20vh;
     display: block;
@@ -101,6 +101,11 @@ img{
 }
 
 @keyframes MoveToRight {
-    from { left: -10%; }
-    to { left: 110%; }
+    from { 
+        left: -10%;
+    }
+
+    to { 
+        left: 110%; 
+    }
 }
