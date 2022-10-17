@@ -119,10 +119,10 @@ img.ani{
 }
 
 img.bg{
-    max-width: 110%;
+    max-width: 100%;
     /* text-align: center center; */
     filter: blur(5px);
     overflow: hidden;
-    transform: scale(1.04);
+    transform: scale(1.1);
     /* z-index: -1; */
 }
