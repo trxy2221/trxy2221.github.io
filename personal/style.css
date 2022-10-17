@@ -95,12 +95,12 @@ img{
     display: block;
     position: relative;
     animation-name: MoveToRight;
-    animation-duration: 4s;
+    animation-duration: 2s;
     /* animation-delay: 2s; */
     animation-iteration-count: infinite;
 }
 
 @keyframes MoveToRight {
-    from { left: 0; }
-    to { left: 100%; }
+    from { left: -10%; }
+    to { left: 110%; }
 }
