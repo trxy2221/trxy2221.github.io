@@ -59,7 +59,7 @@ nav > a {
 }
 
 nav > a:visited{
-    color: white;
+    color: #0d1117;
 }
 
 nav{
@@ -70,6 +70,7 @@ nav{
     font-size: 2vh;
     line-height: 3vh;
     border-radius: 4px;
+    color: #0d1117;
 }
 
 article{
