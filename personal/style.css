@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pro&display=swap');
 @font-face {
     font-family: cyberpunk;
-    src: url('font/CyberwayRiders.ttf') format('truetype');
+    src: url('font/CyberwayRiders.woff') format('woff');
 }
 
 *{
