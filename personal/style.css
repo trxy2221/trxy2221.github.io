@@ -21,7 +21,7 @@ body{
     font-family: Lora, serif;
     font-size: 1.5vh;
     line-height: 1.8vh;
-    background-image: ("nightcity.png");
+    /* background-image: ("nightcity.png"); */
     filter: blur(5px);
 }
 
