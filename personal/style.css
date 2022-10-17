@@ -89,14 +89,14 @@ a, a:visited{
     text-decoration: underline;
 }
 
-img.ani{
+img{
     width: 100px;
     height: 100px;
     display: block;
     position: relative;
     animation-name: MoveToRight;
     animation-duration: 4s;
-    animation-delay: 2s;
+    /* animation-delay: 2s; */
     animation-iteration-count: infinite;
 }
 
