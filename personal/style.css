@@ -114,7 +114,7 @@ img.ani{
 }
 
 img.bg{
-    max-width: 100%;
+    max-width: 110%;
     text-align: center center;
     filter: blur(5px);
     z-index: -1;
