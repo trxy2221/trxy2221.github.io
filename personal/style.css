@@ -28,6 +28,7 @@ body{
     font-family: Lora, serif;
     font-size: 1.5vh;
     line-height: 1.8vh;
+    cursor:url('img/cbpkcross.cur');
 }
 
 h1, h2, h3{
