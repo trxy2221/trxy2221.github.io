@@ -22,7 +22,8 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
     /* background-color:#0d1117; */
-    color: #8b949e;
+    /* color: #8b949e; */
+    color: #0d1117;
     font-family: Lora, serif;
     font-size: 1.5vh;
     line-height: 1.8vh;
@@ -49,8 +50,9 @@ h3{
 }
 
 nav > a {
-    background-color: #323232;
-    color: white;
+    /* background-color: #323232;
+    color: white; */
+    color: #0d1117;
     padding: 4px 4px;
     text-decoration: none;
     opacity: 0.6;
