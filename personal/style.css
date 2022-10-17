@@ -8,7 +8,7 @@
     box-sizing: border-box;
     /* margin: 0;
     padding: 0; */
-    cursor:url('img/cbpkcross.cur');
+
     /* background-color: #0d1117; */
 }
 
@@ -28,7 +28,7 @@ body{
     font-family: Lora, serif;
     font-size: 1.5vh;
     line-height: 1.8vh;
-    cursor:url('img/cbpkcross.cur');
+
 }
 
 h1, h2, h3{
@@ -78,7 +78,7 @@ nav{
 article{
     margin: 0;
     padding: 1vh 1vw;
-    cursor:url('img/cbpkcross.cur');
+
 }
 
 section{
