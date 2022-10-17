@@ -4,8 +4,13 @@
         <meta charset="UTF-8">
         <title>Expository Essay : My Home</title>
         <link rel="stylesheet" href="style.css">
+        <script>
+            function loadTime() {
+                document.getElementById("demo").innerHTML = document.lastModified;
+            }
+        </script>
     </head>
-    <body>
+    <body onload="loadTime();">
         <nav>
             <a>+</a>
             <a href="index.html">Home</a>
@@ -41,6 +46,7 @@
                 My hobby and expertise is photography, I often help clubs and camps to take photos and records,<br>
                 but the style I usually like is street photography, and I like works of artistic creation.<br>
             </p>
+            <div id="demo"></div>
             <!-- <p><em>Last Updated on Oct 9, 2022</em></p> -->
         </article>
     </body>
