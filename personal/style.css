@@ -77,8 +77,8 @@ article{
     margin: 0;
     padding: 1vh 1vw;
     color: #fced09;
-    /* backdrop-filter: none; */
-    backdrop-filter: blur(4px);
+    backdrop-filter: none;
+    /* backdrop-filter: blur(4px); */
     border-radius: 1vh;
 }
 
