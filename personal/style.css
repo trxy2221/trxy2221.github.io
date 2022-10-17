@@ -89,8 +89,8 @@ a, a:visited{
 }
 
 img.ani{
-    /* width: 20vh; */
-    height: 20vh;
+    width: 20vh;
+    height: 20*2560/1440vh;
     display: block;
     position: relative;
     animation-name: MoveToRight;
