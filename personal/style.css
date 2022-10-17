@@ -21,6 +21,8 @@ body{
     font-family: Lora, serif;
     font-size: 1.5vh;
     line-height: 1.8vh;
+    background-image: ("nightcity.png");
+
 }
 
 h1, h2, h3{
