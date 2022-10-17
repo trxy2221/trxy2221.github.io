@@ -91,6 +91,10 @@ p{
     margin: 0.2vh 0;
 }
 
+span.x{
+    font-family: cyberpunk;
+}
+
 a, a:visited{
     color: #fced09;
     text-decoration: underline;
