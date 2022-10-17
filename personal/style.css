@@ -91,7 +91,7 @@ a, a:visited{
 img.ani{
     width: 20vh;
     height: 20*2560/1440vh;
-    position: relative;
+    position: absolute;
     animation-name: MoveToRight;
     animation-duration: 2s;
     /* animation-delay: 2s; */
