@@ -51,9 +51,10 @@ h3{
 nav > a {
     background-color: #323232;
     color: white;
-    padding: 2px 4px;
+    padding: 4px 4px;
     text-decoration: none;
     opacity: 0.6;
+    border-radius: 4px;
 }
 
 nav > a:visited{
@@ -69,6 +70,7 @@ nav{
     font-family: cyberpunk;
     font-size: 2vh;
     line-height: 3vh;
+    border-radius: 4px;
 }
 
 article{
