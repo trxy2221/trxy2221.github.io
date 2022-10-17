@@ -111,6 +111,6 @@ img.ani{
 img.bg{
     max-width: 120%;
     text-align: center center;
-    backdrop-filter: blur(5px);
+    filter: blur(5px);
     z-index: -1;
 }
