@@ -107,6 +107,7 @@ img.bg{
     max-width: 100%;
     /* text-align: center center; */
     /* filter: blur(5px); */
+    filter: brightness(3);
     overflow: hidden;
     transform: scale(1.1);
     /* z-index: -1; */
