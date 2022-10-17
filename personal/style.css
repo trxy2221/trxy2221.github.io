@@ -103,6 +103,15 @@ a, a:visited{
     text-decoration: underline;
 }
 
+img.bg{
+    max-width: 100%;
+    /* text-align: center center; */
+    /* filter: blur(5px); */
+    overflow: hidden;
+    transform: scale(1.1);
+    /* z-index: -1; */
+}
+
 img.ani{
     width: 20vh;
     height: 20*2560/1440vh;
@@ -121,13 +130,4 @@ img.ani{
     to { 
         left: 110%; 
     }
-}
-
-img.bg{
-    max-width: 100%;
-    /* text-align: center center; */
-    /* filter: blur(5px); */
-    overflow: hidden;
-    transform: scale(1.1);
-    /* z-index: -1; */
 }
