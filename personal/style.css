@@ -90,8 +90,8 @@ a, a:visited{
 }
 
 img{
-    width: 10vw;
-    height: 10vh;
+    width: 20vw;
+    height: 20vh;
     display: block;
     position: relative;
     animation-name: MoveToRight;
