@@ -49,7 +49,7 @@ h3{
 }
 
 nav > a {
-    color: #0d1117;
+    color: #fced09;
     padding: 4px 4px;
     text-decoration: none;
     opacity: 0.6;
@@ -57,7 +57,7 @@ nav > a {
 }
 
 nav > a:visited{
-    color: #0d1117;
+    color: #fced09;
 }
 
 nav{
@@ -68,7 +68,7 @@ nav{
     font-size: 2vh;
     line-height: 3vh;
     border-radius: 4px;
-    color: #0d1117;
+    color: #fced09;
 }
 
 article{
@@ -90,7 +90,7 @@ p{
 }
 
 a, a:visited{
-    color: #323232;
+    color: #fced09;
     text-decoration: underline;
 }
 
