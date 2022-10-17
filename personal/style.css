@@ -121,5 +121,6 @@ img.bg{
     /* text-align: center center; */
     filter: blur(5px);
     overflow: hidden;
+    transform: scale(1.02);
     /* z-index: -1; */
 }
