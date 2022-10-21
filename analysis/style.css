@@ -54,6 +54,10 @@ nav > a:visited{
     color: white;
 }
 
+nav > a:hover{
+    opacity: 1;
+}
+
 nav{
     position: fixed;
     z-index: 999;
