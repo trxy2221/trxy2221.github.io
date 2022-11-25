@@ -3,6 +3,7 @@
 	<head>
 		<title>Example 10-1</title>
 		<meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 		<script>
 			
 			for(let i=0; i<5; i++) {
@@ -29,13 +30,18 @@
 			}
 
 			window.onload = function () {
-				// let divs = document.getElementsByTagName('div');
 				let divs = $("div");
-				divs[0].on('click', showMenuItems);
-				document.on('click', hideMenuItems);
-                // let buttons = $('button');
-				// buttons.on('click', heyOnce);
+                let alle = $("*").not("div:first");
+				divs.on('click', showMenuItems);
+                alle.on('click', hideMenuItems);
 			};
+
+            // window.onload = function () {
+			// 	let divs = document.getElementsByTagName('div');
+			// 	divs[0].addEventListener('click', showMenuItems);
+			// 	document.addEventListener('click', hideMenuItems);
+			// };
+
 		</script>
 		<style>
 			div {
