@@ -4,11 +4,13 @@ function showMenuItem(event){
     event.stopPropagation();
     let menuItems = $('nav > a:not(:first-of-type)');
     if (menuOpen) {
-        menuItems.css('display', 'none');
+        // menuItems.css('display', 'none');
         $('nav > a > span').removeClass('rotated');
+        menuItems.removeClass('open');
         menuOpen = false;
     } else {
-        menuItems.css('display', 'inline');
+        // menuItems.css('display', 'inline');
+        menuItems.addClass('open');
         $('nav > a > span').addClass('rotated');
         menuOpen = true;
     }
@@ -16,8 +18,9 @@ function showMenuItem(event){
 }
 function hideMenuItem(){
     let menuItems = $('nav > a:not(:first-of-type)');
-    menuItems.css('display', 'none');
+    // menuItems.css('display', 'none');
     $('nav > a > span').removeClass('rotated');
+    menuItems.removeClass('open');
     menuOpen = false;
 }
 window.onload = function(){
