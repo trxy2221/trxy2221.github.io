@@ -17,6 +17,7 @@ function showMenuItem(event){
 function hideMenuItem(){
     let menuItems = $('nav > a:not(:first-of-type)');
     menuItems.css('display', 'none');
+    $('nav > a > span').removeClass('rotated');
     menuOpen = false;
 }
 window.onload = function(){
