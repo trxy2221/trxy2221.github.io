@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Montserrat&family=Source+Sans+Pro&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0d1117; */
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-color: slategrey;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+    position: absolute;
+    left: 10vw;;
+    min-height: 100%;
+    width: 80%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    color: #ffffff;
+    /* font-family: Lora, serif; */
+    font-size: 3vh;
+    line-height: 4vh;
+}
