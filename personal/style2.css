@@ -71,6 +71,7 @@ img{
     display: none;
     position: absolute;
     width: 30vw;
+    cursor: pointer;
 }
 
 figure:first-of-type > img{
