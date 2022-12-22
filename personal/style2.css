@@ -16,7 +16,10 @@ html{
 }
 
 nav{
+    box-sizing: content-box;
     text-align: center;
+    line-height: 5vh;
+    /* background-color: rgb(30, 45, 72); */
 }
 
 nav > a {

@@ -17,6 +17,7 @@ function showMenuItems (event) {
 
 window.onload = function () {
     let figures = $("figure>img");
+    // while(1) setTimeout(function(){ showMenuItems() }, 3000)
     figures.on('click', showMenuItems);
 };
 
