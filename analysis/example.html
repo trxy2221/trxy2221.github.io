@@ -4,11 +4,52 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
-        <script src="demo.js"></script>
         <title>Expository Essay : Example</title>
         <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="demo.js"></script>
+        <script>
+            function move_up()
+            {
+                let view_top = $(window).scrollTop();
+                let view_bottom = view_top + $(window).height();
+                let all_sections = $("section");
+                let last = all_sections.length - 1;
+
+                all_sections.each(
+                    function(i){
+                        let current_item = all_sections.eq(i);
+
+                        if(current_item.offset().top + 100 + 100 > view_top && current_item.offset().top + 100 < view_bottom && i != last){
+                            current_item.animate({top: "0", opacity: "1"}, 500);
+                        }
+                        else if(current_item.offset().top + 100 > view_top && current_item.offset().top + 100 - 1 < view_bottom){    // - 1 for offset
+                            current_item.animate({top: "0", opacity: "1"}, 500);
+                        }
+                        /* else
+                        {
+                            current_item.css("top", 100);
+                        } */
+                        
+                    }
+                )
+            }
+            
+            window.onload = function()
+            {
+                move_up();
+
+                $(document).on("scroll", move_up);
+                $("nav > a:first-of-type").on("click", showHideMenuItems);
+                $(document).on("click", hideMenuItems);
+            }
+        </script>
         <style>
+            section{
+                position: relative;
+                top: 100px;
+                opacity: 0;
+            }
             span.joint {
                 color: #a6611a;
             }
