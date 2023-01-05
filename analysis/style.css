@@ -18,8 +18,8 @@ body{
     background-color:white;
     color: #000a16;
     font-family: Lora, serif;
-    font-size: 2.4vh;
-    line-height: 3.6vh;
+    font-size: 3vh;
+    line-height: 4.5vh;
 }
 
 h1, h2, h3{
@@ -27,19 +27,19 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: 4.8vh;
-    line-height: 7.2vh;
+    font-size: 6vh;
+    line-height: 8vh;
     margin: 1vh 0;
 }
 
 h2{
-    font-size: 3.6vh;
-    line-height: 4.8vh;
+    font-size: 4.8vh;
+    line-height: 7.2vh;
 }
 
 h3{
-    font-size: 3vh;
-    line-height: 4.5vh;
+    font-size: 3.6vh;
+    line-height: 4.8vh;
 }
 
 nav{

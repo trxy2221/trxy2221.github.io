@@ -23,6 +23,7 @@ function hideMenuItem(){
     menuItems.removeClass('open');
     menuOpen = false;
 }
+
 window.onload = function(){
     $('nav > a:first-of-type').on('click', showMenuItem);
     $(document).on('click', hideMenuItem);
