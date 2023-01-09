@@ -19,6 +19,8 @@ nav{
     box-sizing: content-box;
     text-align: center;
     line-height: 5vh;
+    animation-name: OPC;
+    animation-duration: 4s;
     /* background-color: rgb(30, 45, 72); */
 }
 
@@ -65,6 +67,8 @@ h1{
 }
 
 article{
+    animation-name: OPC;
+    animation-duration: 4s;
     background-color: slategrey;
     position: absolute;
     left: 35vw;
@@ -81,11 +85,46 @@ span.v{
     background-color: rgb(68, 89, 109);
 }
 
+span.ani{
+    /* width: 20vh; */
+    height: 20*2560/1440vh;
+    position: absolute;
+    animation-name: MoveToRight;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+}
+
+@keyframes MoveToRight {
+    from { 
+        left: -100%;
+        opacity: 0%;
+    }
+
+    to { 
+        left: 17%; 
+    }
+}
+
+@keyframes OPC {
+    from { 
+        
+        opacity: 0%;
+    }
+
+    to { 
+        opacity: 100%;
+    }
+}
+
+
 img{
     display: none;
     position: absolute;
     width: 30vw;
     cursor: pointer;
+    animation-name: OPC;
+    animation-duration: 4s;
 }
 
 figure:first-of-type > img{

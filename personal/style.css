@@ -124,7 +124,7 @@ img.bg{
     /* z-index: -1; */
 }
 
-img.ani{
+span.ani{
     width: 20vh;
     height: 20*2560/1440vh;
     position: absolute;
