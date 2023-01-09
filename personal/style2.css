@@ -95,6 +95,16 @@ span.ani{
     /* animation-iteration-count: infinite; */
 }
 
+span.ani2{
+    /* width: 20vh; */
+    height: 20*2560/1440vh;
+    position: absolute;
+    animation-name: MoveToRight2;
+    animation-duration: 2s;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: infinite; */
+}
+
 @keyframes MoveToRight {
     from { 
         left: -100%;
@@ -103,6 +113,17 @@ span.ani{
 
     to { 
         left: 17%; 
+    }
+}
+
+@keyframes MoveToRight2 {
+    from { 
+        left: -100%;
+        opacity: 0%;
+    }
+
+    to { 
+        left: 6%; 
     }
 }
 
@@ -124,7 +145,7 @@ img{
     width: 30vw;
     cursor: pointer;
     animation-name: OPC;
-    animation-duration: 4s;
+    animation-duration: 2s;
 }
 
 figure:first-of-type > img{
