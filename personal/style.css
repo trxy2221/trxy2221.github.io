@@ -104,6 +104,16 @@ a, a:visited{
     text-decoration: underline;
 }
 
+img.cur{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+}
+
+img.ncur{
+    transition: all 0.3s ease-out;
+    display: none;
+}
+
 img.bg{
     max-width: 100%;
     /* text-align: center center; */

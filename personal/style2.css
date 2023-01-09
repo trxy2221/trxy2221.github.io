@@ -95,3 +95,13 @@ figure:first-of-type > img{
 figure{
     background-color: blanchedalmond;
 }
+
+img.cur{
+    transition: all 0.3s ease-out;
+    display: inline-block;
+}
+
+img.ncur{
+    transition: all 0.3s ease-out;
+    display: none;
+}
